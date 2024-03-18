@@ -1,0 +1,56 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
+using UnityEngine.Events;
+
+[RequireComponent(typeof(Image))]
+public class TabButton : MonoBehaviour, IPointerEnterHandler, IPointerClickHandler, IPointerExitHandler
+{
+    public Navigation navigationGroup;
+
+    public Image background;
+
+    public UnityEvent onTabSelected;
+    public UnityEvent onTabDeselected;
+
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        navigationGroup.OnTabSelected(this);
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+       navigationGroup.OnTabEnter(this);
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        navigationGroup.OnTabExit(this);
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {   //assign Image to Tab Component & Then Subscribe to the group
+        background = GetComponent<Image>();
+        navigationGroup.Subscribe(this);
+
+    }
+
+    public void Select()
+    {
+        if(onTabSelected != null)
+        {
+            onTabSelected.Invoke();
+        }
+    }
+    public void Deselect()
+    {
+        if (onTabDeselected != null)
+        {
+            onTabDeselected.Invoke();
+        }
+    }
+}
