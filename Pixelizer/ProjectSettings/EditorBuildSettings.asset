@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Home.unity
     guid: b5b680975dcb76a4e8273893c2bdbce9
+  - enabled: 1
+    path: Assets/Scenes/Grid.unity
+    guid: 685cbf66b05588c45b67003ce3203274
+  - enabled: 1
+    path: Assets/Scenes/HelpTab.unity
+    guid: 62c5a549a066b0a409fd578e40e4f8cc
   m_configObjects: {}
