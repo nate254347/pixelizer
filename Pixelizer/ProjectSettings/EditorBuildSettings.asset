@@ -20,4 +20,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HelpTab.unity
     guid: 62c5a549a066b0a409fd578e40e4f8cc
+  - enabled: 1
+    path: Assets/Scenes/DeleteTab.unity
+    guid: 966c7f023e345a84d8bfdbcbeba09aa5
+  - enabled: 1
+    path: Assets/Scenes/SettingsTab.unity
+    guid: c48fdd812c9f12845a5507bed9b72feb
+  - enabled: 1
+    path: Assets/Scenes/BrushTab.unity
+    guid: 82f1e9c500787b048a2b18c392e11b04
+  - enabled: 1
+    path: Assets/Scenes/ColorTab.unity
+    guid: 606af3f7d251dd9469198e401e08261e
+  - enabled: 1
+    path: Assets/Scenes/GridTab.unity
+    guid: 29369a6fc4e7e0b4aa8142999daa50cd
+  - enabled: 1
+    path: Assets/Scenes/StampTab.unity
+    guid: ca18a09dfa0698f44aaaeae195f37036
+  - enabled: 1
+    path: Assets/Scenes/SaveTab.unity
+    guid: 6090e8e8edcbbd549bd97039b551205d
   m_configObjects: {}

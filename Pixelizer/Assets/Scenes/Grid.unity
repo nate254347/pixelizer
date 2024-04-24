@@ -175,7 +175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9555fefc1d385741acb10c77765e40f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: HelpTab
+  sceneName: SettingsTab
 --- !u!114 &180868110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -397,7 +397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9555fefc1d385741acb10c77765e40f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: HelpTab
+  sceneName: DeleteTab
 --- !u!114 &317621010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -541,7 +541,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_UiScaleMode: 1
-  m_ReferencePixelsPerUnit: 100
+  m_ReferencePixelsPerUnit: 10
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
@@ -596,7 +596,7 @@ RectTransform:
   - {fileID: 1156496138}
   - {fileID: 180868107}
   - {fileID: 1136945239}
-  - {fileID: 1278824414}
+  - {fileID: 1621957231}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -97.117, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -803,7 +803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9555fefc1d385741acb10c77765e40f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: HelpTab
+  sceneName: BrushTab
 --- !u!114 &524794988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1062,7 +1062,7 @@ GameObject:
   - component: {fileID: 945652565}
   - component: {fileID: 945652564}
   m_Layer: 5
-  m_Name: StampIcon
+  m_Name: StampButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1100,7 +1100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9555fefc1d385741acb10c77765e40f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: HelpTab
+  sceneName: StampTab
 --- !u!114 &945652565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1394,7 +1394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9555fefc1d385741acb10c77765e40f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: HelpTab
+  sceneName: SaveTab
 --- !u!114 &1156496140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1557,81 +1557,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1278824413
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1278824414}
-  - component: {fileID: 1278824416}
-  - component: {fileID: 1278824415}
-  m_Layer: 5
-  m_Name: Panel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1278824414
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1278824413}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 487713955}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1278824415
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1278824413}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9575472, b: 0.9575472, a: 0.392}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1278824416
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1278824413}
-  m_CullTransparentMesh: 1
 --- !u!1 &1326393803
 GameObject:
   m_ObjectHideFlags: 0
@@ -1815,7 +1740,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1465720845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2068,12 +1993,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1621957229}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.19, y: -0.07, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.6767023}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: 48, z: -9600}
+  m_LocalScale: {x: 103.03999, y: 89.42934, z: 72.18159}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 487713955}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1640117491
 GameObject:
@@ -2277,7 +2202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9555fefc1d385741acb10c77765e40f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: HelpTab
+  sceneName: GridTab
 --- !u!114 &1789520270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2419,7 +2344,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1983028335}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f9555fefc1d385741acb10c77765e40f, type: 3}
   m_Name: 
@@ -2468,19 +2393,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1983028339}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1983028337}
-        m_TargetAssemblyTypeName: sceneSelectButton, Assembly-CSharp
-        m_MethodName: changeScene
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: HelpTab
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1983028339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2571,7 +2484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9555fefc1d385741acb10c77765e40f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: HelpTab
+  sceneName: ColorTab
 --- !u!114 &2035178500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2823,5 +2736,4 @@ SceneRoots:
   - {fileID: 1326393806}
   - {fileID: 487713955}
   - {fileID: 1158413710}
-  - {fileID: 1621957231}
   - {fileID: 1465720846}
