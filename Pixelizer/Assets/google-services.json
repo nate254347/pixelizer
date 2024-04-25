@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "271635669686",
+    "project_id": "pixelizer-993df",
+    "storage_bucket": "pixelizer-993df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271635669686:android:78a93a57cc1fce351f7c17",
+        "android_client_info": {
+          "package_name": "com.Databasers.Pixelizer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbBHwQToULMMw0lMUcNS6uwMOUr-_Lc_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
