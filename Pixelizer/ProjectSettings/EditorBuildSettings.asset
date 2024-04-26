@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Home Scene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -23,6 +23,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DeleteTab.unity
     guid: 966c7f023e345a84d8bfdbcbeba09aa5
+  - enabled: 1
+    path: Assets/Scenes/HomeSettingsTab.unity
+    guid: 4d6c490ae6378874bb66a20461c0ad95
+  - enabled: 1
+    path: Assets/Scenes/HomeTab.unity
+    guid: d1ab4865220cd3b4c8c259f27dbf8358
+  - enabled: 1
+    path: Assets/Scenes/LandingPage.unity
+    guid: b52802d6eb420df4ab49906c05e338e3
+  - enabled: 1
+    path: Assets/Scenes/LoadTab.unity
+    guid: 8624278b11832aa469c58961f46363c7
   - enabled: 1
     path: Assets/Scenes/SettingsTab.unity
     guid: c48fdd812c9f12845a5507bed9b72feb

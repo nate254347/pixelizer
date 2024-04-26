@@ -1247,7 +1247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9555fefc1d385741acb10c77765e40f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Home
+  sceneName: HomeTab
 --- !u!114 &1136945241
 MonoBehaviour:
   m_ObjectHideFlags: 0
