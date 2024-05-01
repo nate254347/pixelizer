@@ -1188,6 +1188,7 @@ MonoBehaviour:
   passwordRegisterField: {fileID: 0}
   passwordRegisterVerifyField: {fileID: 0}
   warningRegisterText: {fileID: 0}
+  sceneChange: 
 --- !u!4 &1460415492
 Transform:
   m_ObjectHideFlags: 0
