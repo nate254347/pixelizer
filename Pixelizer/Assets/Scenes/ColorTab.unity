@@ -225,8 +225,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 180, y: 373}
-  m_SizeDelta: {x: 700, y: 50}
+  m_AnchoredPosition: {x: 81, y: 642}
+  m_SizeDelta: {x: 570, y: 87.64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1141171260
 MonoBehaviour:
@@ -710,7 +710,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -233, y: 354}
+  m_AnchoredPosition: {x: -288, y: 638}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &1924553549
@@ -759,7 +759,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 100, y: 100}
+  m_Size: {x: 150, y: 150}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -938,8 +938,8 @@ Transform:
   m_GameObject: {fileID: 2135497184}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -180.71107, z: -15199.997}
-  m_LocalScale: {x: 101.33331, y: 101.33331, z: 168.88885}
+  m_LocalPosition: {x: 0, y: -11.81, z: -15199.997}
+  m_LocalScale: {x: 126.747696, y: 145.90985, z: 168.88885}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1233660547}

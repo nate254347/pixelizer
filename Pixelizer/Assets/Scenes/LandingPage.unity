@@ -905,7 +905,7 @@ MonoBehaviour:
   passwordRegisterField: {fileID: 897341103}
   passwordRegisterVerifyField: {fileID: 925212692}
   warningRegisterText: {fileID: 1843041720}
-  sceneChange: Home
+  sceneChange: HomeTab
 --- !u!4 &137555286
 Transform:
   m_ObjectHideFlags: 0
